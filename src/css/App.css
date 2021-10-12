@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+.filter-button {
+  padding: 16px;
+  width: 200px;
+}
+
+.books {
+  width: 1200px;
+  margin: 32px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.book {
+  position: relative;
+  width: calc(33.333% - 32px);
+  border: 1px solid #333;
+  border-radius: 4px;
+  margin: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+
+.like-button, .remove-button {
+  background: inherit;
+  position: absolute;
+  top: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.like-button {
+  right: 16px;
+  fill: #fff;
+  stroke: red;
+}
+
+.remove-button {
+  left: 16px;
+}
+
+.like-button._fill {
+  fill: red;
+}
